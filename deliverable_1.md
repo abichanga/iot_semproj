@@ -170,30 +170,6 @@ The relay module is **low-level trigger** - pulling the control pin LOW energize
 
 ---
 
-## 5. Evidence of Groupwork
-
-### Meeting 1: Planning and Task Allocation
-**Date:** Wednesday, 28th May 2026
-**Venue:** Engineering Labs Building
-**Present:** Arthur, Silver, Isaac, Sudheysi, Anita
-
-**Summary:**
-- Went through the Deliverable 1 brief as a group and split it into sections.
-- Isaac pointed out that the MQ-5 runs on 5V but the ESP32 ADC only handles up to 3.3V, so we'd need a voltage divider in the schematic designs.
-- Sudheysi asked whether we need soil sensors for this deliverable. We agreed they're not required yet but we'll need them for later deliverables.
-- Silver offered to check what's already available in the Makerspace.
-
-**Task Split:**
-
-| Task | Assigned To |
-|---|---|
-| Environmental research (daisy growth conditions) | Anita & Sudheysi |
-| Hardware component list | Isaac & Arthur |
-| Datasheet sourcing | Silver |
-| Schematic diagrams (A, B, C) | Arthur, Isaac & Anita |
-| Markdown compilation & GitHub submission | Anita |
-
----
 
 ## 5. Evidence of Groupwork
 
