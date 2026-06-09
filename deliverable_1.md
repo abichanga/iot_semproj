@@ -12,10 +12,10 @@ Below are the target environmental parameters that our embedded devices will nee
 
 | Parameter | Optimal Range | Notes |
 |---|---|---|
-| **Optimal Temperature** | 15 °C – 24 °C (60 °F – 75 °F) | Daisies can tolerate cooler temps (down to approximately –6 °C) and warmer conditions (up to ~29 °C), but growth slows significantly outside this optimal band. This range aligns well with Flora Farms' greenhouse targets of 18–24 °C. |
+| **Optimal Temperature** | 15 °C – 24 °C (60 °F – 75 °F) | Daisies can tolerate cooler temps (down to approximately –6 °C) and warmer conditions (up to 29 °C), but growth slows significantly outside this optimal band. This range aligns well with Flora Farms' greenhouse targets of 18–24 °C. |
 | **Optimal Relative Humidity** | 40 % – 60 % | Around 50 % is the sweet spot. Too little humidity causes leaf desiccation, while excessive moisture invites fungal diseases like powdery mildew and botrytis. Adequate ventilation in the greenhouse is essential for maintaining this range. |
 | **Recommended Soil Type** | Well-draining loamy or sandy loam, rich in organic matter | An ideal growing medium combines compost, peat moss, and perlite in roughly equal parts — this provides a balance of moisture retention, aeration, and nutrient supply. |
-| **Optimal Soil Moisture** | Consistently moist, not waterlogged (≈ 60–70 % of field capacity; roughly 1 inch of water per week) | Daisies are prone to root rot, so the soil must stay moist but never soggy. Given that the greenhouses are irrigated from a local river stream, monitoring soil moisture is critical to avoid overwatering. |
+| **Optimal Soil Moisture** | Consistently moist, not waterlogged ( 60–70 % of field capacity; roughly 1 inch of water per week) | Daisies are prone to root rot, so the soil must stay moist but never soggy. Given that the greenhouses are irrigated from a local river stream, monitoring soil moisture is critical to avoid overwatering. |
 | **Optimal Soil pH** | 6.0 – 7.0 (slightly acidic to neutral) | This range ensures optimal nutrient uptake through the root system. A broader tolerance of about 5.8–7.5 is acceptable, but performance is best within the primary range. |
 | **Sunlight Exposure** | 6 – 8 hours of direct sunlight per day | Daisies are full-sun plants; some varieties may need even longer. This can be measured using a light sensor (e.g., BH1750) and integrated over the course of the day. |
 
