@@ -102,7 +102,7 @@ In this design, a single ESP32-S board handles all sensing and display duties. T
 
 This is the simplest and most compact architecture, ideal for a single greenhouse node where all sensors are co-located.
 
-![Design A - Single-node schematic](./design_a_single_node.png)
+![Design A - Single-node schematic]
 
 **Pin Assignments (Design A):**
 
@@ -127,7 +127,7 @@ Key considerations for this design:
 - The two boards **must share a common ground**, otherwise the UART signals have no reference and communication will fail.
 - This architecture is useful when sensors are physically separated within the greenhouse (e.g., the gas sensor near the LPG heater, the temp/humidity sensor near the flower beds).
 
-![Design B - Dual-node UART schematic](./design_b_dual_uart.png)
+![Design B - Dual-node UART schematic]
 
 **Pin Assignments (Design B):**
 
@@ -149,7 +149,7 @@ This design introduces power-switching logic. **ESP32-A** reads the DHT22 and co
 
 The relay module is **low-level trigger** - pulling the control pin LOW energizes the coil and closes the NO contact. The module includes a built-in flyback diode and optocoupler for isolation.
 
-![Design C - Relay-switched chain schematic](./design_c_relay_chain.png)
+![Design C - Relay-switched chain schematic]
 
 **Pin Assignments (Design C):**
 
