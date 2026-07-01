@@ -30,7 +30,7 @@ To resolve this issue, the team swapped the malfunctioning LCD for an OLED displ
 For this device architecture, our team chose to develop a **physical model**[cite: 1].
 
 ### Device Schematic
-![Prototype B Schematic](insert_schematic_b_image_link_here)
+![Prototype B Schematic](design_b.jpeg)
 
 ### Physical Prototype Implementation
 * **Hardware Setup:**
@@ -44,22 +44,22 @@ For this device architecture, our team chose to develop a **physical model**[cit
 ## C. Prototype C: 1 ESP32S connected to 1 DHT22 connected to 1 relay which is connected to another ESP32S connected to 1 MQ-5[cite: 1]
 
 ### Implementation Strategy
-For this device architecture, our team chose to develop a **simulated model** using Wokwi[cite: 1]. 
+For this device architecture, our team chose to develop a **simulated model** using Wokwi[https://wokwi.com/projects/468171968422865921]. 
 
 ### Device Schematic
-![Prototype C Schematic](insert_schematic_c_image_link_here)
+![Prototype C Schematic](design_c.jpeg)
 
 ### Simulated Prototype
-* **Wokwi Project Link:** [Wokwi Simulation C](insert_wokwi_project_link_here)
+* **Wokwi Project Link:** [Wokwi Simulation C](https://wokwi.com/projects/468171968422865921)
 * **Wokwi Implementation Diagram:**
-![Simulation C Overview](insert_wokwi_implementation_c_image_link_here)
+![Simulation C Overview](simulation_c_overview.png)
 
 ### Simulation Outputs
 * **Output from First ESP32:**
-![First ESP32 Output](insert_first_esp32_output_image_link_here)
+![First ESP32 Output](node_1_output.png)
 
 * **Output from Second ESP32:**
-![Second ESP32 Output](insert_second_esp32_output_image_link_here)
+![Second ESP32 Output](node_2_output.png)
 
 ---
 
