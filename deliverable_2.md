@@ -75,5 +75,6 @@ For this device architecture, our team chose to develop a **simulated model** us
 ---
 
 ## Evidence of Groupwork
-*(Placeholder: Insert your team meeting notes, GitHub commit history screenshots, or collaboration evidence here)*
+* **Photo of the entire team in the lab:**
+![Photo](evidence.jpeg)
 
