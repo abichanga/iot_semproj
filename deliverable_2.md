@@ -2,10 +2,18 @@
 
 ## A. Prototype A: 1 ESP32S connected to 1 MQ-5, 1 DHT22 and Display
 
+### Device Schematic
+* **Device Schematic:**
+![Prototype A Schematic](design_a.png)
+
 ### Simulated Prototype
 * **Wokwi Project Link:** [Simulation A Link](https://wokwi.com/projects/468343920186370049)
 * **Simulation Schematic:**
-![Simulation Schematic A](design_a.png)
+![Simulation Schematic A](simulation_a_overview.png)
+
+* **Simulation Output:**
+![Simulation Output A](simulation_a_output.png)
+
 
 ### Physical Prototype
 * **Initial Physical Implementation:**
@@ -24,24 +32,27 @@ To resolve this issue, the team swapped the malfunctioning LCD for an OLED displ
 
 ---
 
-## B. Prototype B: 1 ESP32S connected to 1 MQ-5 interfaced directly with another ESP32S connected to 1 DHT22[cite: 1]
+## B. Prototype B: 1 ESP32S connected to 1 MQ-5 interfaced directly with another ESP32S connected to 1 DHT22
 
 ### Implementation Strategy
-For this device architecture, our team chose to develop a **physical model**[cite: 1].
+For this device architecture, our team chose to develop a **physical model**.
 
 ### Device Schematic
 ![Prototype B Schematic](design_b.jpeg)
 
 ### Physical Prototype Implementation
 * **Hardware Setup:**
-![Physical Prototype B Setup](insert_physical_prototype_b_image_link_here)
+![Physical Prototype B Setup](simulation_b_photo.jpeg)
 
 * **Hardware Output:**
-![Physical Prototype B Output](insert_output_b_image_link_here)
+![Physical Prototype B Output 1](physical_b_output_a.jpeg)
 
+![Physical Prototype B Output 2](physical_b_output_b.jpeg)
+
+![Physical Prototype B Output 3](physical_b_output_c.jpeg)
 ---
 
-## C. Prototype C: 1 ESP32S connected to 1 DHT22 connected to 1 relay which is connected to another ESP32S connected to 1 MQ-5[cite: 1]
+## C. Prototype C: 1 ESP32S connected to 1 DHT22 connected to 1 relay which is connected to another ESP32S connected to 1 MQ-5
 
 ### Implementation Strategy
 For this device architecture, our team chose to develop a **simulated model** using Wokwi[https://wokwi.com/projects/468171968422865921]. 
