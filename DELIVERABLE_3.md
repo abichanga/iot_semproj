@@ -61,7 +61,7 @@ The prototype is implemented as a public Wokwi simulation.
 
 **Wokwi project:** https://wokwi.com/projects/469457762534362113
 
-![Wokwi simulation](images/wokwi-simulation.png)
+![Wokwi simulation](wokwi-simulation.png)
 
 The simulation connects to the internet through Wokwi's virtual WiFi network (`Wokwi-GUEST`), which allows the simulated ESP32 to make real HTTPS requests to InfluxDB Cloud. Data written from the simulation is therefore genuinely stored in the cloud database, not mocked.
 
@@ -242,9 +242,7 @@ Storing `gas_raw` alongside the normalised `gas_level` preserves the original se
 
 ### 5.3 Evidence of Stored Data
 
-![InfluxDB stored data, table view](images/influxdb-table.png)
-
-![InfluxDB stored data, graph view](images/influxdb-graph.png)
+![InfluxDB stored data, table view](influxdb-table.png)
 
 The table view shows individual timestamped records, confirming that the data is stored as a time series rather than as flat records.
 
@@ -339,27 +337,4 @@ The full pipeline was verified end to end:
 
 ---
 
-## 9. Repository Contents
 
-```
-.
-├── DELIVERABLE_3.md
-├── src/
-│   ├── sketch.ino
-│   └── diagram.json
-└── images/
-    ├── wokwi-simulation.png
-    ├── influxdb-table.png
-    ├── influxdb-graph.png
-    ├── grafana-timeseries.png
-    └── grafana-gauge.png
-```
-
----
-
-## 10. Links
-
-| Resource | Link |
-|---|---|
-| Wokwi simulation | https://wokwi.com/projects/469457762534362113 |
-| Grafana dashboard | *(see screenshots above)* |
