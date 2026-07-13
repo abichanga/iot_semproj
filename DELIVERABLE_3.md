@@ -263,9 +263,9 @@ The table view shows individual timestamped records, confirming that the data is
 
 ### 6.2 Dashboard
 
-![Grafana dashboard, time series panels](images/grafana-timeseries.png)
+![Grafana dashboard, time series panels](grafana-timeseries.png)
 
-![Grafana dashboard, gas gauge](images/grafana-gauge.png)
+![Grafana dashboard, gas gauge](grafana-gauge.png)
 
 ### 6.3 Visualisation 1: Greenhouse Temperature
 
