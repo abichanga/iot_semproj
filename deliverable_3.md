@@ -328,7 +328,7 @@ The full pipeline was verified end to end:
 | Member | Contribution |
 |---|---|
 | Anita | Build the circuit architecture (ESP32 + MQ-5 + DHT22 + display)| 
-| Arthur | |Set up the InfluxDB Cloud account and organisation|
+| Arthur | Set up the InfluxDB Cloud account and organisation|
 | Silver | Set up Grafana Cloud and connect the InfluxDB data source|
 | Isaac | Compile markdown document|
 | Sudheysi | Help build circuit architecture and code|
