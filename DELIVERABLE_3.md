@@ -362,4 +362,4 @@ The full pipeline was verified end to end:
 | Resource | Link |
 |---|---|
 | Wokwi simulation | https://wokwi.com/projects/469457762534362113 |
-| Grafana dashboard | *(add public link or see screenshots above)* |
+| Grafana dashboard | *(see screenshots above)* |
