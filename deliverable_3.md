@@ -1,7 +1,5 @@
 # Deliverable 3: Cloud Data Transmission and Visualisation
 
-**Course:** Internet of Things
-**Institution:** Strathmore University, School of Computing and Engineering Sciences
 **Group:** Ohm Sweet Ohm
 **Project:** Greenhouse Environmental Monitoring System
 
@@ -329,8 +327,8 @@ The full pipeline was verified end to end:
 
 | Member | Contribution |
 |---|---|
-| Anita | Build the circuit architecture (ESP32 + MQ-5 + DHT22 + display)|
-| Arthur | Set up the InfluxDB Cloud account and organisation|
+| Anita | Build the circuit architecture (ESP32 + MQ-5 + DHT22 + display)| 
+| Arthur | |Set up the InfluxDB Cloud account and organisation|
 | Silver | Set up Grafana Cloud and connect the InfluxDB data source|
 | Isaac | Compile markdown document|
 | Sudheysi | Help build circuit architecture and code|
